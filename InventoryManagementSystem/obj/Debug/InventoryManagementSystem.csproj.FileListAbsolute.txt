@@ -1,0 +1,13 @@
+c:\users\codepassenger\documents\visual studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
+c:\users\codepassenger\documents\visual studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe
+c:\users\codepassenger\documents\visual studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.pdb
+c:\users\codepassenger\documents\visual studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csprojResolveAssemblyReference.cache
+c:\users\codepassenger\documents\visual studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.login.resources
+c:\users\codepassenger\documents\visual studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Properties.Resources.resources
+c:\users\codepassenger\documents\visual studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csproj.GenerateResource.Cache
+c:\users\codepassenger\documents\visual studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe
+c:\users\codepassenger\documents\visual studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
+c:\users\codepassenger\documents\visual studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\MySql.Data.dll
+c:\users\codepassenger\documents\visual studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\MySql.Data.xml
+c:\users\codepassenger\documents\visual studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.MDIParent1.resources
+c:\users\codepassenger\documents\visual studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.add_new_user.resources
