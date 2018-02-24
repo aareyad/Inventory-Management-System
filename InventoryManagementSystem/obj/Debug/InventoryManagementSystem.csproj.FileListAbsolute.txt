@@ -11,3 +11,17 @@ c:\users\codepassenger\documents\visual studio 2015\Projects\InventoryManagement
 c:\users\codepassenger\documents\visual studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\MySql.Data.xml
 c:\users\codepassenger\documents\visual studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.MDIParent1.resources
 c:\users\codepassenger\documents\visual studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.add_new_user.resources
+C:\Users\SALMAN\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
+C:\Users\SALMAN\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe
+C:\Users\SALMAN\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
+C:\Users\SALMAN\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe
+C:\Users\SALMAN\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.pdb
+C:\Users\SALMAN\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\MySql.Data.dll
+C:\Users\SALMAN\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\MySql.Data.xml
+C:\Users\SALMAN\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\SALMAN\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.add_new_user.resources
+C:\Users\SALMAN\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.login.resources
+C:\Users\SALMAN\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.MDIParent1.resources
+C:\Users\SALMAN\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Properties.Resources.resources
+C:\Users\SALMAN\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csproj.GenerateResource.Cache
+C:\Users\SALMAN\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.unit.resources

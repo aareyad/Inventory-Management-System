@@ -109,5 +109,16 @@ namespace InventoryManagementSystem
             add_new_user au = new add_new_user();
             au.Show();
         }
+
+        private void MDIParent1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void addUnitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            unit u = new unit();
+            u.Show();
+        }
     }
 }
