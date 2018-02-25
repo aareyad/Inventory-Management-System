@@ -85,27 +85,23 @@ namespace InventoryManagementSystem
             Display();
         }
         public void Display() {
-            MySqlCommand cmd = con.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "Select * from registration";
-            cmd.ExecuteNonQuery();
-            DataTable dt = new DataTable();
-            MySqlDataAdapter da = new MySqlDataAdapter(cmd);
-            da.Fill(dt);
-            dataGridView1.DataSource = dt;
+            try {
+                MySqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "Select * from registration";
+                cmd.ExecuteNonQuery();
+                DataTable dt = new DataTable();
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                da.Fill(dt);
+                dataGridView1.DataSource = dt;
+            }
+            catch (Exception ex) {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
-        {/*
-            int id;
-            id = Convert.ToInt32(dataGridView1.SelectedCells[0].Value.ToString());
-            String sql = "delete from registration where id = '"+ id +"'";
-            MySqlCommand cmd = new MySqlCommand(sql, con);
-            MySqlDataReader reader;
-            reader = cmd.ExecuteReader();
-            reader.Close();
-            Display();
-            */
+        {
             int id;
             id = Convert.ToInt32(dataGridView1.SelectedCells[0].Value.ToString());
             MySqlCommand cmd = con.CreateCommand();
@@ -113,7 +109,6 @@ namespace InventoryManagementSystem
             cmd.CommandText = "delete from registration where id = '" + id + "'";
             cmd.ExecuteNonQuery();
             Display();
-            //MessageBox.Show(dataGridView1.SelectedCells[0].Value.ToString());
         }
     }
 }

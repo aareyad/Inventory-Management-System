@@ -25,3 +25,4 @@ C:\Users\SALMAN\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\
 C:\Users\SALMAN\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Properties.Resources.resources
 C:\Users\SALMAN\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csproj.GenerateResource.Cache
 C:\Users\SALMAN\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.unit.resources
+C:\Users\CodePassenger\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.unit.resources
