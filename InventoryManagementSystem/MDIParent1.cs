@@ -120,5 +120,11 @@ namespace InventoryManagementSystem
             unit u = new unit();
             u.Show();
         }
+
+        private void addProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            add_product_name apn = new add_product_name();
+            apn.Show();
+        }
     }
 }
