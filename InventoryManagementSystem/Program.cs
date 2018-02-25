@@ -17,7 +17,7 @@ namespace InventoryManagementSystem
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new login());
-            Application.Run(new add_product_name());
+            Application.Run(new dealer_info());
         }
     }
 }

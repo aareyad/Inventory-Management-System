@@ -126,5 +126,11 @@ namespace InventoryManagementSystem
             add_product_name apn = new add_product_name();
             apn.Show();
         }
+
+        private void dealerInfoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            dealer_info di = new dealer_info();
+            di.Show();
+        }
     }
 }

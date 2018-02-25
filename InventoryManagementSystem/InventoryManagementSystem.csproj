@@ -59,6 +59,12 @@
     <Compile Include="add_product_name.Designer.cs">
       <DependentUpon>add_product_name.cs</DependentUpon>
     </Compile>
+    <Compile Include="dealer_info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dealer_info.Designer.cs">
+      <DependentUpon>dealer_info.cs</DependentUpon>
+    </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="add_product_name.resx">
       <DependentUpon>add_product_name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dealer_info.resx">
+      <DependentUpon>dealer_info.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
