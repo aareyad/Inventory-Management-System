@@ -53,6 +53,18 @@
     <Compile Include="add_new_user.Designer.cs">
       <DependentUpon>add_new_user.cs</DependentUpon>
     </Compile>
+    <Compile Include="add_product_name.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_product_name.Designer.cs">
+      <DependentUpon>add_product_name.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dealer_info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dealer_info.Designer.cs">
+      <DependentUpon>dealer_info.cs</DependentUpon>
+    </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +79,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="purchase_master.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchase_master.Designer.cs">
+      <DependentUpon>purchase_master.cs</DependentUpon>
+    </Compile>
     <Compile Include="unit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +93,12 @@
     </Compile>
     <EmbeddedResource Include="add_new_user.resx">
       <DependentUpon>add_new_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_product_name.resx">
+      <DependentUpon>add_product_name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dealer_info.resx">
+      <DependentUpon>dealer_info.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
@@ -91,6 +115,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="purchase_master.resx">
+      <DependentUpon>purchase_master.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="unit.resx">
       <DependentUpon>unit.cs</DependentUpon>
     </EmbeddedResource>

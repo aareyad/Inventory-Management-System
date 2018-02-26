@@ -16,7 +16,8 @@ namespace InventoryManagementSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new unit());
+            //Application.Run(new login());
+            Application.Run(new purchase_master());
         }
     }
 }

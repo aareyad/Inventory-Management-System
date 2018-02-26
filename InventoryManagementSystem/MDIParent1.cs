@@ -120,5 +120,23 @@ namespace InventoryManagementSystem
             unit u = new unit();
             u.Show();
         }
+
+        private void addProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            add_product_name apn = new add_product_name();
+            apn.Show();
+        }
+
+        private void dealerInfoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            dealer_info di = new dealer_info();
+            di.Show();
+        }
+
+        private void purchaseProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            purchase_master pm = new purchase_master();
+            pm.Show();
+        }
     }
 }
