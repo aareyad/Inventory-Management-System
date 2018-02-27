@@ -32,3 +32,5 @@ C:\Users\CodePassenger\Documents\Visual Studio 2015\Projects\InventoryManagement
 C:\Users\CodePassenger\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.dealer_info.resources
 C:\Users\CodePassenger\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.purchase_master.resources
 C:\Users\CodePassenger\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.sales.resources
+C:\Users\SALMAN\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.purchase_master.resources
+C:\Users\SALMAN\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.sales.resources

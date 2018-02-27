@@ -245,7 +245,7 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel1);
             this.Name = "add_new_user";
-            this.Text = "New User";
+            this.Text = "User Information";
             this.Load += new System.EventHandler(this.add_new_user_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

@@ -101,7 +101,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "unit";
-            this.Text = "unit";
+            this.Text = "Product Unit";
             this.Load += new System.EventHandler(this.unit_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

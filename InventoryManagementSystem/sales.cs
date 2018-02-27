@@ -211,10 +211,21 @@ namespace InventoryManagementSystem
 
             foreach(DataRow dr in dt.Rows)
             {
+                int qty = 0;
+                string pname = "";
+
                 MySqlCommand cmd3 = con.CreateCommand();
                 cmd3.CommandType = CommandType.Text;
                 cmd3.CommandText = "insert into order_item(order_id, product, price, qty, total) values('" + orderid.ToString() + "','" + dr["product"].ToString() + "','" + dr["price"].ToString() + "','" + dr["qty"].ToString() + "', '"+ dr["total"].ToString() +"')";
                 cmd3.ExecuteNonQuery();
+
+                qty = Convert.ToInt32(dr["qty"].ToString());
+                pname = dr["product"].ToString();
+
+                MySqlCommand cmd6 = con.CreateCommand();
+                cmd6.CommandType = CommandType.Text;
+                cmd6.CommandText = "update stock set product_qty = product_qty - '"+ qty +"' where product_name = '"+ pname.ToString() +"'";
+                cmd6.ExecuteNonQuery();
             }
 
             textBox1.Text = "";

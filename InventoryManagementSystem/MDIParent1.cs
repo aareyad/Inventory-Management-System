@@ -138,5 +138,11 @@ namespace InventoryManagementSystem
             purchase_master pm = new purchase_master();
             pm.Show();
         }
+
+        private void salesProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            sales ss = new sales();
+            ss.Show();
+        }
     }
 }

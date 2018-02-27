@@ -280,7 +280,7 @@
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.panel1);
             this.Name = "purchase_master";
-            this.Text = "purchase_master";
+            this.Text = "Purchase Product";
             this.Load += new System.EventHandler(this.purchase_master_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
