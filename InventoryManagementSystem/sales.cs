@@ -30,6 +30,7 @@ namespace InventoryManagementSystem
                 con.Close();
             }
             con.Open();
+
             dt.Clear();
             dt.Columns.Add("product");
             dt.Columns.Add("price");
@@ -240,6 +241,62 @@ namespace InventoryManagementSystem
             dataGridView1.DataSource = dt;
 
             MessageBox.Show("Record inserted successfully!");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            string orderid = "";
+
+            MySqlCommand cmd1 = con.CreateCommand();
+            cmd1.CommandType = CommandType.Text;
+            cmd1.CommandText = "insert into order_user(firstname, lastname, billtype, purchase_date) values('" + textBox1.Text + "','" + textBox1.Text + "','" + comboBox1.Text + "','" + dateTimePicker1.Value.ToString("dd/MM/yyyy") + "')";
+            cmd1.ExecuteNonQuery();
+
+            MySqlCommand cmd2 = con.CreateCommand();
+            cmd2.CommandType = CommandType.Text;
+            cmd2.CommandText = "select * from order_user order by id desc limit 1";
+            cmd2.ExecuteNonQuery();
+            DataTable dt2 = new DataTable();
+            MySqlDataAdapter da2 = new MySqlDataAdapter(cmd2);
+            da2.Fill(dt2);
+            foreach (DataRow dr2 in dt2.Rows)
+            {
+                orderid = dr2["id"].ToString();
+            }
+
+            foreach (DataRow dr in dt.Rows)
+            {
+                int qty = 0;
+                string pname = "";
+
+                MySqlCommand cmd3 = con.CreateCommand();
+                cmd3.CommandType = CommandType.Text;
+                cmd3.CommandText = "insert into order_item(order_id, product, price, qty, total) values('" + orderid.ToString() + "','" + dr["product"].ToString() + "','" + dr["price"].ToString() + "','" + dr["qty"].ToString() + "', '" + dr["total"].ToString() + "')";
+                cmd3.ExecuteNonQuery();
+
+                qty = Convert.ToInt32(dr["qty"].ToString());
+                pname = dr["product"].ToString();
+
+                MySqlCommand cmd6 = con.CreateCommand();
+                cmd6.CommandType = CommandType.Text;
+                cmd6.CommandText = "update stock set product_qty = product_qty - '" + qty + "' where product_name = '" + pname.ToString() + "'";
+                cmd6.ExecuteNonQuery();
+            }
+
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            textBox4.Text = "";
+            textBox5.Text = "";
+            textBox6.Text = "";
+            label10.Text = "";
+
+            dt.Clear();
+            dataGridView1.DataSource = dt;
+
+            generate_bill gb = new generate_bill();
+            gb.get_value(Convert.ToInt32(orderid.ToString()));
+            gb.Show();
         }
     }
 }
