@@ -31,3 +31,4 @@ C:\Users\SALMAN\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\
 C:\Users\CodePassenger\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.add_product_name.resources
 C:\Users\CodePassenger\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.dealer_info.resources
 C:\Users\CodePassenger\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.purchase_master.resources
+C:\Users\CodePassenger\Documents\Visual Studio 2015\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.sales.resources

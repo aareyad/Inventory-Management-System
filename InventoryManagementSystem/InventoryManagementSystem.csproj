@@ -85,6 +85,12 @@
     <Compile Include="purchase_master.Designer.cs">
       <DependentUpon>purchase_master.cs</DependentUpon>
     </Compile>
+    <Compile Include="sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sales.Designer.cs">
+      <DependentUpon>sales.cs</DependentUpon>
+    </Compile>
     <Compile Include="unit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +123,9 @@
     </Compile>
     <EmbeddedResource Include="purchase_master.resx">
       <DependentUpon>purchase_master.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sales.resx">
+      <DependentUpon>sales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="unit.resx">
       <DependentUpon>unit.cs</DependentUpon>
