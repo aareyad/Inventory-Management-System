@@ -33,8 +33,8 @@ namespace InventoryManagementSystem
                 con.Close();
             }
             con.Open();
-
-            DataSet1 ds = new DataSet1();
+            
+            inventoryDataSet ds = new inventoryDataSet();
 
             MySqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
@@ -58,11 +58,12 @@ namespace InventoryManagementSystem
             {
                 tot = tot + Convert.ToInt32(dr2["total"].ToString());
             }
-
-            CrystalReport1 myreport = new CrystalReport1();
+            
+            CrystalReport2 myreport = new CrystalReport2();
             myreport.SetDataSource(ds);
             myreport.SetParameterValue("total", tot.ToString());
             crystalReportViewer1.ReportSource = myreport;
+            
         }
     }
 }

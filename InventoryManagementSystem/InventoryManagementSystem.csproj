@@ -72,10 +72,11 @@
       <DependentUpon>CrystalReport1.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="DataSet1.Designer.cs">
+    <Compile Include="CrystalReport2.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DataSet1.xsd</DependentUpon>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="dealer_info.cs">
       <SubType>Form</SubType>
@@ -88,6 +89,17 @@
     </Compile>
     <Compile Include="generate_bill.Designer.cs">
       <DependentUpon>generate_bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="generate_bill1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="generate_bill1.Designer.cs">
+      <DependentUpon>generate_bill1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inventoryDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>inventoryDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
@@ -131,11 +143,18 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrystalReport1.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="dealer_info.resx">
       <DependentUpon>dealer_info.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="generate_bill.resx">
       <DependentUpon>generate_bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="generate_bill1.resx">
+      <DependentUpon>generate_bill1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
@@ -161,16 +180,16 @@
     <EmbeddedResource Include="unit.resx">
       <DependentUpon>unit.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="DataSet1.xsc">
-      <DependentUpon>DataSet1.xsd</DependentUpon>
+    <None Include="inventoryDataSet.xsc">
+      <DependentUpon>inventoryDataSet.xsd</DependentUpon>
     </None>
-    <None Include="DataSet1.xsd">
-      <SubType>Designer</SubType>
+    <None Include="inventoryDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+      <LastGenOutput>inventoryDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </None>
-    <None Include="DataSet1.xss">
-      <DependentUpon>DataSet1.xsd</DependentUpon>
+    <None Include="inventoryDataSet.xss">
+      <DependentUpon>inventoryDataSet.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

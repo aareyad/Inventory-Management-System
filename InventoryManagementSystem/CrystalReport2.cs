@@ -16,14 +16,14 @@ namespace InventoryManagementSystem {
     using CrystalDecisions.CrystalReports.Engine;
     
     
-    public class CrystalReport1 : ReportClass {
+    public class CrystalReport2 : ReportClass {
         
-        public CrystalReport1() {
+        public CrystalReport2() {
         }
         
         public override string ResourceName {
             get {
-                return "CrystalReport1.rpt";
+                return "CrystalReport2.rpt";
             }
             set {
                 // Do nothing
@@ -41,7 +41,7 @@ namespace InventoryManagementSystem {
         
         public override string FullResourceName {
             get {
-                return "InventoryManagementSystem.CrystalReport1.rpt";
+                return "InventoryManagementSystem.CrystalReport2.rpt";
             }
             set {
                 // Do nothing
@@ -87,12 +87,20 @@ namespace InventoryManagementSystem {
                 return this.ReportDefinition.Sections[4];
             }
         }
+        
+        [Browsable(false)]
+        [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
+        public CrystalDecisions.Shared.IParameterField Parameter_total {
+            get {
+                return this.DataDefinition.ParameterFields[0];
+            }
+        }
     }
     
     [System.Drawing.ToolboxBitmapAttribute(typeof(CrystalDecisions.Shared.ExportOptions), "report.bmp")]
-    public class CachedCrystalReport1 : Component, ICachedReport {
+    public class CachedCrystalReport2 : Component, ICachedReport {
         
-        public CachedCrystalReport1() {
+        public CachedCrystalReport2() {
         }
         
         [Browsable(false)]
@@ -129,7 +137,7 @@ namespace InventoryManagementSystem {
         }
         
         public virtual CrystalDecisions.CrystalReports.Engine.ReportDocument CreateReport() {
-            CrystalReport1 rpt = new CrystalReport1();
+            CrystalReport2 rpt = new CrystalReport2();
             rpt.Site = this.Site;
             return rpt;
         }
